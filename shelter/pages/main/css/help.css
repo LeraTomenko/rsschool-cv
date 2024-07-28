@@ -1,0 +1,15 @@
+.help{
+  background-color: rgb(255, 255, 255);
+  padding: 80px 127px 100px 127px;
+}
+.help h2{
+  text-align: center;
+  padding-bottom: 60px;
+  max-width:300px ;
+}
+.help_wrapper{
+display: flex;
+gap: 55px 120px;
+flex-wrap: wrap;
+justify-content: center
+}
