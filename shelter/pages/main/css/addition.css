@@ -1,0 +1,32 @@
+.addition{
+  background-color: rgb(246, 246, 246);
+  display: grid;
+  grid-template-columns: 60% 40%;  
+  align-items: center;
+  padding: 80px 182px 100px 183px;
+}
+.header_addition{  
+  max-width: 280px;
+  margin: 0;
+}
+.addition_wrapper{
+  max-width: 380px;
+  text-align: left;
+}
+.addition_icon{
+  background-image: url('./../../../assets/icons/card.svg');
+}
+.addition_cardnumber{ 
+  font-family: Georgia;
+  font-size: 22px;
+  background-color: rgb(241, 205, 179); 
+  padding: 10px 15px 10px 15px;
+  max-width: 319px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 9px;
+}
+.addition_info{
+ color: rgb(178, 178, 178); 
+ font-size: 12px;
+}

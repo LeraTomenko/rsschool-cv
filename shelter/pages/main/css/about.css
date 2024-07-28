@@ -1,0 +1,17 @@
+.about{
+background-color: rgb(255, 255, 255);
+display: grid;
+grid-template-columns: 50% 50%; 
+align-items: center;
+padding:80px 200px 114px 200px;
+ 
+}
+ 
+.about_text{
+  font-size: 15px;
+  line-height: 24px;
+ 
+}
+.about_header{
+  max-width: 350px ;
+}
