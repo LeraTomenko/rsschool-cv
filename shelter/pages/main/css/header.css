@@ -1,44 +1,48 @@
 @import url('../fonts/fonts.css');
 
-.wrapper_header{
+.wrapper_header {
   background-image: url('../../../assets/img/header/background.jpg');
   background-size: cover;
   color: white;
 }
 
-.header{
+.header {
   font-family: 'Arial';
   padding: 5px 40px 50px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-}
-.logo_name{
- font-family: 'Georgia';
- font-weight: normal;
- font-style: normal;
- color: rgb(241, 205, 179);
- font-size: 32px;
- margin-bottom: 10px; 
 
 }
-.logo_text{
- margin-top: 0;
- color: rgb(205, 205, 205);
+
+.logo_name {
+  font-family: 'Georgia';
+  font-weight: normal;
+  font-style: normal;
+  color: rgb(241, 205, 179);
+  font-size: 32px;
+  margin-bottom: 10px;
+
 }
-.navigation_list{ 
+
+.logo_text {
+  margin-top: 0;
+  color: rgb(205, 205, 205);
+}
+
+.navigation_list {
   color: rgb(205, 205, 205);
   font-size: 14px;
   display: flex;
   justify-content: space-between;
 
 }
+
 .navigation_list li {
   margin-right: 30px;
 }
 
-.not_only{
+.not_only {
   font-weight: 'arial-regular';
   display: grid;
   grid-template-columns: 40% 60%;
@@ -47,24 +51,29 @@
 
 }
 
-.not_only_container{
-margin-left: 15px;  
-margin-top: 145px;
+.not_only_container {
+  margin-left: 15px;
+  margin-top: 145px;
 }
-.not_only_header{
+
+.not_only_header {
   max-width: 420px;
   font-size: 30px;
   line-height: 200%;
 }
-.not_only_text{
+
+.not_only_text {
   color: rgb(205, 205, 205);
-  font-size: 15px;  
+  font-size: 15px;
   line-height: 160%;
+  margin-bottom: 57px;
 }
-.not_only_button{
+
+.not_only_button {
   color: black;
-  margin-top: 25px;  
+
 }
-.not_only_img{
+
+.not_only_img {
   padding: 0;
 }
