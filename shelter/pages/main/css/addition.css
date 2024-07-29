@@ -1,9 +1,13 @@
 .addition{
   background-color: rgb(246, 246, 246);
-  display: grid;
-  grid-template-columns: 60% 40%;  
-  align-items: center;
   padding: 80px 182px 100px 183px;
+  
+}
+.container_addition{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .header_addition{  
   max-width: 280px;
@@ -29,4 +33,7 @@
 .addition_info{
  color: rgb(178, 178, 178); 
  font-size: 12px;
+}
+.addition_img{
+  margin-right: 30px;
 }

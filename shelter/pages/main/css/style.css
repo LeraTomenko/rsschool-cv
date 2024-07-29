@@ -33,11 +33,7 @@ body{
 
   
 }
-.container{
-  max-width: 1280px;
-  margin: 0 auto;
-
-}
+ 
 .customButtonColored { 
 font-family: 'Georgia'; 
 background-color:rgb(241, 195, 162);

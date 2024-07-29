@@ -4,9 +4,15 @@
   background-image: url('../../../assets/img/header/background.jpg');
   background-size: cover;
   color: white;
+  
+}
+.container_header{
+ max-width: 1280px;
+ margin: 0 auto;
+
 }
 
-.header {
+.header { 
   font-family: 'Arial';
   padding: 5px 40px 50px 40px;
   display: flex;
