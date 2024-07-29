@@ -2,9 +2,14 @@
   background-image: url('../../../assets/img/header/background.jpg');
   background-size: cover;
  
+}
+.footer_container{
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+    
 }
 .footer h2 {
   color: rgb(255, 255, 255);

@@ -8,6 +8,8 @@
   max-width:300px ;
 }
 .help_wrapper{
+max-width: 1280px;
+margin: 0 auto;
 display: flex;
 gap: 55px 120px;
 flex-wrap: wrap;
