@@ -20,7 +20,7 @@
   </head>
   <body>    
        <div class="wrapper_header"> 
-        <div class="container_header"> 
+        <div class="container"> 
         <header class="header">
             
           <a href="#">
@@ -43,7 +43,8 @@
               </li>
               <li><a class="linkNotActive" href="#Contacts">Contacts</a></li>
             </ul>
-          </nav>        
+          </nav>  
+          <div class="burger"> <img src="../../assets/icons/Burger.svg">  </div>      
         </header>
 
         <section class="not_only">
@@ -63,6 +64,7 @@
             class="not_only_img"
             src="../../assets/img/header/puppy.png"
             alt="dog"
+            width="auto"
           >
        
         </section>
@@ -75,7 +77,7 @@
           <div class="about_img">
             <img src="../../assets/img/about/aboutpets.png" alt="about pets">
           </div>
-          <div class="about_text">
+          <div class="text_wrapper">
             <h3 class="header_section about_header">
               About the shelter “Cozy House”
             </h3>
@@ -99,15 +101,15 @@
         </section>
         <section class="ourfriends" id="ourfriends">
           <div class="ourfriends_header">
-            <h2 class="header_section">
+            <h2 class="header_section header_ourfriends">
               Our friends who <br>
               are looking for a house
             </h2>
           </div>
 
           <div class="ourfriends_cards">
-            <div class="ourfriends_arrow arrow_left"></div>
-            <div class="ourfriends_arrow arrow_right"></div>
+            <div class="ourfriends_arrow arrow_left arrow-screen"></div>
+            <div class="ourfriends_arrow arrow_right arrow-screen"></div>
             <div class="ourfriends_card">
               <img src="../../assets/img/ourfriends/katrine.png" alt="Katrine">
               <p class="ourfriend_name">Katrine</p>
@@ -124,62 +126,68 @@
               <button class="customButtonTransparent">Learn more</button>
             </div>
           </div>        
-            <a class="customButtonColored" href="../pets/index.html">Get to know the rest </a>          
+           <div class="mobile-button_arrow">
+            <div class="ourfriends_arrow arrow_left"></div>
+            <div class="ourfriends_arrow arrow_right"></div>
+            </div>
+            <a class="customButtonColored" href="../pets/index.html">Get to know the rest </a>      
         </section>
         <section class="help" id="Help">
           <h2 class="header_section">How you can help our shelter</h2>
+          <div class="container"> 
           <div class="help_wrapper">
-            <div>
+            <div class="icon_wrapper">
               <img src="../../assets/icons/help/food.svg" alt="food">
               <p>Pet food</p>
             </div>
-            <div>
+            <div  class="icon_wrapper">
               <img
                 src="../../assets/icons/help/transportation.svg"
                 alt="Transportation"
               >
               <p>Transportation</p>
             </div>
-            <div>
+            <div  class="icon_wrapper">
               <img src="../../assets/icons/help/toys.svg" alt="Toys">
               <p>Toys</p>
             </div>
-            <div>
+            <div  class="icon_wrapper">
               <img
                 src="../../assets/icons/help/cups.svg"
                 alt="Bowls and cups"
               >
               <p>Bowls and cups</p>
             </div>
-            <div>
+            <div  class="icon_wrapper">
               <img src="../../assets/icons/help/shampoos.svg" alt="Shampoos">
               <p>Shampooss</p>
             </div>
-            <div>
+            <div  class="icon_wrapper">
               <img src="../../assets/icons/help/vitamins.svg" alt="Vitamins">
               <p>Vitamins</p>
             </div>
-            <div>
+            <div  class="icon_wrapper">
               <img
                 src="../../assets/icons/help/medicines.svg"
                 alt="Medicines"
               >
               <p>Medicines</p>
             </div>
-            <div>
+            <div  class="icon_wrapper">
               <img
                 src="../../assets/icons/help/leashes.svg"
                 alt="Collars / leashes"
               >
               <p>Collars / leashes</p>
             </div>
-            <div>
+            <div  class="icon_wrapper">
               <img
                 src="../../assets/icons/help/sleeping.svg"
                 alt="Sleeping areas"
               >
               <p>Sleeping areas</p>
             </div>
+          </div>
           </div>
         </section>
         <section class="addition">
@@ -250,7 +258,7 @@
           </div>
         </div>
 
-        <img src="../../assets/img/footer/footerpuppy.png" alt="footer_dog">
+        <img class="footer_img" src="../../assets/img/footer/footerpuppy.png" alt="footer_dog">
         </div>
       </footer>
      
