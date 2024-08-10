@@ -91,6 +91,7 @@ height: auto;
     display: none;
   }
   .not_only {
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
