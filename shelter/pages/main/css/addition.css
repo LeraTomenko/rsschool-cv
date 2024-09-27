@@ -1,0 +1,78 @@
+.addition{
+  background-color: rgb(246, 246, 246);
+  padding: 80px 182px 100px 183px;
+  
+}
+.container_addition{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.header_addition{  
+  max-width: 280px;
+  margin: 0;
+}
+.addition_wrapper{
+  max-width: 380px;
+  text-align: left;
+}
+.addition_icon{
+  background-image: url('./../../../assets/icons/card.svg');
+}
+.addition_cardnumber{ 
+  font-family: Georgia;
+  font-size: 22px;
+  background-color: rgb(241, 205, 179); 
+  padding: 10px 15px 10px 15px;
+  max-width: 319px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 9px;
+}
+.addition_info{
+ color: rgb(178, 178, 178); 
+ font-size: 12px;
+}
+.addition_img{
+  margin-right: 30px;
+  
+}
+.addition_img img {
+max-width: 100%;
+}
+
+/* телефон */
+@media screen and (min-width: 320px) and (max-width: 768px){
+  .addition{
+    padding: 42px 10px;
+  }
+  .container_addition {
+   padding-top: 12px;
+   flex-direction: column-reverse;
+   justify-content: center;
+   align-items: center;
+  }
+ .header_addition{
+ 
+ }
+ .addition_wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+}
+
+/* планшет */
+@media screen and (min-width: 768px) and (max-width: 1280px){
+  .container_addition{
+    padding-top: 12px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .addition_wrapper{
+   margin-bottom: 60px;
+  }
+}

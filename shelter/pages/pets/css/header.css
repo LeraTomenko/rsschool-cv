@@ -1,0 +1,73 @@
+@import url('../fonts/fonts.css');
+
+.linkActive{
+  color: inherit;
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Arial';
+  padding-left: 40px;
+  padding-right: 40px;
+ 
+}
+.container_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+ 
+
+.logo_name {
+  color: rgb(241, 205, 179);
+  font-family: 'Georgia';
+  font-weight: normal;
+  font-size: 32px;
+  margin-bottom: 10px;
+
+}
+
+.logo_text {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.navigation_list {
+ font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation_list li {
+  margin-right: 30px;
+}
+
+.burger {
+  display: none;
+}
+
+/* телефон */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+.container_header {
+    max-width: 360px;
+  }
+.navigation{
+  display: none;
+}
+
+.burger {
+ display: block;
+}
+
+}
+
+/* планшет */
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+ .container_header{
+   max-width: 768px;
+ }
+
+}
+ 

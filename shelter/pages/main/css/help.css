@@ -1,0 +1,43 @@
+.help{
+  background-color: rgb(255, 255, 255);
+  padding: 80px 127px 100px 127px;
+}
+.help h2{
+ text-align: center;
+ padding-bottom: 60px;
+ max-width:300px ;
+}
+.help_wrapper{
+ display: flex;
+ flex-wrap: wrap;
+ column-gap: 12rem;
+ row-gap: 5.5rem;
+ justify-content: center;
+}
+.icon_wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* телефон */
+@media screen and (min-width: 320px) and (max-width: 768px){
+  .help{
+    padding: 42px 15px;
+  }
+ .help_wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+ }
+
+
+}
+/* планшет */
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+.help_wrapper{
+ column-gap: 9rem;
+ row-gap: 2.5rem;
+}
+}
